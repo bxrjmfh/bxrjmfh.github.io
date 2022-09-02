@@ -50,14 +50,14 @@ yat:
 google_analytics: [Tracking ID]
 
 # If you want to generate website sitemap, you can set true
-sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
 lang: "zh-CN"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
+translate_langs:[]
 #   - lang: en
 #     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
 #     text: English

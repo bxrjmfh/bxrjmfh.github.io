@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "zh-CN" }}">
 
   {%- include head.html -%}
-
+  {% include extensions/mathjax.html %}
   <body>
 
     {%- include views/header.html -%}
