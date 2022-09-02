@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="完成部分本地化" />
+    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="完成部分本地化fix">
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +55,7 @@
       <updated>1661952360672</updated>
       <workItem from="1661952362572" duration="6951000" />
       <workItem from="1662109046072" duration="3045000" />
-      <workItem from="1662125421300" duration="3132000" />
+      <workItem from="1662125421300" duration="3527000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
@@ -69,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662128757519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成部分本地化fix">
+      <created>1662128897465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662128897465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test fix thing" />
     <MESSAGE value="完成部分本地化" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成部分本地化" />
+    <MESSAGE value="完成部分本地化fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成部分本地化fix" />
   </component>
 </project>
