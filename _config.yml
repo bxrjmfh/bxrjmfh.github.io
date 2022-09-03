@@ -168,10 +168,10 @@ lang: "zh-CN"  # default lang is en
 
 # Gitment comments
 gitment:
-   username: "Your GitHub username"
-   repo: "The repo to store comments"
-   client_id: "Your client ID"
-   client_secret: "Your client secret"
+   username: "bxrjmfh"
+   repo: "https://github.com/bxrjmfh/gitpageComments.git"
+   client_id: "1518df932380775f4427"
+   client_secret: "23525810d3177d071a39f0ddc446b600cc581f3c"
    redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Build settings
