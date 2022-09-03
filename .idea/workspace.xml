@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="完成部分本地化fix">
+    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="取消全部自动翻译">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/post-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/views/post-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/segments.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/views/segments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
       <updated>1661952360672</updated>
       <workItem from="1661952362572" duration="6951000" />
       <workItem from="1662109046072" duration="3045000" />
-      <workItem from="1662125421300" duration="3527000" />
+      <workItem from="1662125421300" duration="11565000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662128897465</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="取消全部自动翻译">
+      <created>1662129246308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662129246308</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +109,7 @@
     <MESSAGE value="test fix thing" />
     <MESSAGE value="完成部分本地化" />
     <MESSAGE value="完成部分本地化fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成部分本地化fix" />
+    <MESSAGE value="取消全部自动翻译" />
+    <option name="LAST_COMMIT_MESSAGE" value="取消全部自动翻译" />
   </component>
 </project>
