@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="still fixing the comment test on web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/comments/gitment.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/extensions/comments/gitment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/tags.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
