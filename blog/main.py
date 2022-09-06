@@ -7,6 +7,7 @@
 import os
 import datetime as dt
 import pickle
+import sys
 
 RAW_FILE_PATH = './Documents'
 POST_FILE_PATH = '/Data/Rice_Bowl/BLOG/_posts'
@@ -32,6 +33,7 @@ try:
 except:
     tagInfos = []
 
+newFiles = []
 for root, dirs, files in os.walk(RAW_FILE_PATH):
     for i, filename in enumerate(files):
         print("processing the {} th files : ".format(i + 1) + filename)
@@ -73,6 +75,7 @@ for root, dirs, files in os.walk(RAW_FILE_PATH):
                     print("finished !")
                     fileInfo = {filename:modifyTime}
                     fileInfos.update(fileInfo)
+                    newFiles.append(filename)
         elif fileInfos[filename] != modifyTime:
             YAML = []
             with open(newFileDir, "r") as readObjHead:
@@ -92,7 +95,7 @@ for root, dirs, files in os.walk(RAW_FILE_PATH):
                     writeObj.write(l)
             print("Update the modify"+filename)
             fileInfo[filename] = modifyTime
-
+            newFiles.append(filename)
 with open(INFO_PATH, 'wb') as outfile:
     pickle.dump(fileInfo, outfile, pickle.HIGHEST_PROTOCOL)
     print("finished fileinfo saving")
@@ -102,4 +105,7 @@ with open(CATE_INFO_PATH, 'wb') as outfile:
 with open(TAG_INFO_PATH, 'wb') as outfile:
     pickle.dump(tagInfos, outfile, pickle.HIGHEST_PROTOCOL)
     print("finished taginfo saving")
+sys.stderr.write('Updated {} file(s) \n'.format(len(newFiles)+1))
+for i in new files:
+    sys.stderr.write(i+"\n")
 
