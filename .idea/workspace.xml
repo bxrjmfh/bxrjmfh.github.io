@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="move files">
-      <change afterPath="$PROJECT_DIR$/_posts/shell读取python脚本返回值2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/shell读取python脚本返回值.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/shell读取python脚本返回值2.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/images/banners" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -67,7 +68,7 @@
       <workItem from="1662379018041" duration="560000" />
       <workItem from="1662380093983" duration="324000" />
       <workItem from="1662385785311" duration="357000" />
-      <workItem from="1662431429968" duration="326000" />
+      <workItem from="1662431429968" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
