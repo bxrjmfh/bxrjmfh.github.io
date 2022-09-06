@@ -105,7 +105,7 @@ with open(CATE_INFO_PATH, 'wb') as outfile:
 with open(TAG_INFO_PATH, 'wb') as outfile:
     pickle.dump(tagInfos, outfile, pickle.HIGHEST_PROTOCOL)
     print("finished taginfo saving")
-sys.stderr.write('Updated {} file(s) \n'.format(len(newFiles)+1))
+sys.stderr.write('Updated {} file(s) \n'.format(len(newFiles)))
 for i in newFiles:
     sys.stderr.write(i+"\n")
 
