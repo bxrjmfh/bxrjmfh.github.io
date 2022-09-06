@@ -97,7 +97,7 @@ for root, dirs, files in os.walk(RAW_FILE_PATH):
             fileInfo[filename] = modifyTime
             newFiles.append(filename)
 with open(INFO_PATH, 'wb') as outfile:
-    pickle.dump(fileInfo, outfile, pickle.HIGHEST_PROTOCOL)
+    pickle.dump(fileInfos, outfile, pickle.HIGHEST_PROTOCOL)
     print("finished fileinfo saving")
 with open(CATE_INFO_PATH, 'wb') as outfile:
     pickle.dump(cateInfos, outfile, pickle.HIGHEST_PROTOCOL)
