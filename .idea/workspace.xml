@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="move files">
-      <change beforePath="$PROJECT_DIR$/_posts/shell读取python脚本返回值.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/shell读取python脚本返回值2.md" beforeDir="false" />
-    </list>
+    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="move files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
       <workItem from="1662379018041" duration="560000" />
       <workItem from="1662380093983" duration="324000" />
       <workItem from="1662385785311" duration="357000" />
-      <workItem from="1662431429968" duration="737000" />
+      <workItem from="1662431429968" duration="1339000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
