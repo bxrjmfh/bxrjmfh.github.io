@@ -20,16 +20,20 @@
       {% endfor %}
       {% assign dates2 = dates| remove_first: split_mark
       | split: split_mark
-      | sort: self
+      | reverse
       | uniq%}
 <!--      按月进行索引 -->
       {% for key2 in dates2 %}
           <div><em>{{ key2 }}</em></div>
 
           {% for item in items %}
-          {% if item != nil and item.date | date:"%m" == key2%}
+          {% if item != nil %}
 <!--          {{ item.date| date: "%Y/%m"  }}-->
+          {% assign month = item.date | date: '%m' %}
+          {% if month == key2 %}
           <li> {% include views/post-item.html %} </li>
+
+          {% endif %}
           {% endif %}
           {% endfor %}
       {% endfor %}

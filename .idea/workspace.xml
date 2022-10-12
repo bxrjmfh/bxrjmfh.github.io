@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="move files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/segments.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/views/segments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,7 @@
       <workItem from="1662385785311" duration="357000" />
       <workItem from="1662431429968" duration="2023000" />
       <workItem from="1664802357613" duration="2233000" />
+      <workItem from="1665579664017" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
