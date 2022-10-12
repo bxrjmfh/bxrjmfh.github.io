@@ -20,7 +20,6 @@
       {% endfor %}
       {% assign dates2 = dates| remove_first: split_mark
       | split: split_mark
-      | reverse
       | uniq%}
 <!--      按月进行索引 -->
       {% for key2 in dates2 %}

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="move files">
+    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="fix older">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/segments.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/views/segments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <workItem from="1662385785311" duration="357000" />
       <workItem from="1662431429968" duration="2023000" />
       <workItem from="1664802357613" duration="2233000" />
-      <workItem from="1665579664017" duration="1894000" />
+      <workItem from="1665579664017" duration="2249000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662276118392</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fix older">
+      <created>1665581804825</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665581804825</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +263,7 @@
     <MESSAGE value="fixed some category error" />
     <MESSAGE value="add about" />
     <MESSAGE value="edit banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit banner" />
+    <MESSAGE value="fix older" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix older" />
   </component>
 </project>
