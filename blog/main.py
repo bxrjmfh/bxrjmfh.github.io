@@ -40,14 +40,14 @@ for root, dirs, files in os.walk(RAW_FILE_PATH):
       fileDir = os.path.join(RAW_FILE_PATH, filename)
       modifyTime = dt.datetime.utcfromtimestamp(os.path.getmtime(fileDir)).strftime("%Y-%m-%d")
       print("modified on " + modifyTime)
-      newName = modifyTime + '-' + filename.replace(' ', '-')
-      # edit the filename
-      newFileDir = os.path.join(POST_FILE_PATH, newName)
       # shutil.copy(fileDir, newFileDir)
       print("Do you wanna join it ？y/n")
       if 'n' in input():
         continue
-      if filename not in fileInfos:
+      newName = modifyTime + '-' + filename.replace(' ', '-')
+      # edit the filename
+      newFileDir = os.path.join(POST_FILE_PATH, newName)
+      if filename not in fileInfos :
         # not included in doc .
         # move the file
         with open(fileDir, "r") as readObj, open(newFileDir, "w+") as writeObj:
@@ -81,25 +81,29 @@ for root, dirs, files in os.walk(RAW_FILE_PATH):
             newFiles.append(filename)
       elif fileInfos[filename] != modifyTime:
         YAML = []
-        with open(newFileDir, "r") as readObjHead:
+        oldName = fileInfos[filename]+'-'+filename.replace(' ','-')
+        # load an old filename
+        oldFileDir = os.path.join(POST_FILE_PATH,oldName)
+        with open(oldFileDir, "r") as headObj \
+            ,open(fileDir,'r') as readObj\
+            ,open(newFileDir, "w+") as writeObj:
           headCounter = 0
-          for l in readObjHead:
+          for l in headObj:
             if "---" in l:
               headCounter += 1
             YAML.append(l)
             if headCounter == 2:
               break
-        with open(fileDir, "r") as readObj:
+          # add the header
           lines = [l for l in readObj]
-        with open(newFileDir, "w+") as writeObj:
+          # add the post main body
           for l in YAML:
             writeObj.write(l)
           for l in lines:
             writeObj.write(l)
         print("Update the modify" + filename)
-        fileInfo[filename] = modifyTime
+        fileInfos[filename] = modifyTime
         newFiles.append(filename)
-
 
 
 with open(INFO_PATH, 'wb') as outfile:
