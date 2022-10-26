@@ -41,13 +41,14 @@ for root, dirs, files in os.walk(RAW_FILE_PATH):
       modifyTime = dt.datetime.utcfromtimestamp(os.path.getmtime(fileDir)).strftime("%Y-%m-%d")
       print("modified on " + modifyTime)
       # shutil.copy(fileDir, newFileDir)
-      print("Do you wanna join it ？y/n")
-      if 'n' in input():
-        continue
+
       newName = modifyTime + '-' + filename.replace(' ', '-')
       # edit the filename
       newFileDir = os.path.join(POST_FILE_PATH, newName)
       if filename not in fileInfos :
+        print("Do you wanna join it ？y/n")
+        if 'n' in input():
+          continue
         # not included in doc .
         # move the file
         with open(fileDir, "r") as readObj, open(newFileDir, "w+") as writeObj:
