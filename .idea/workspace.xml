@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="fix older">
-      <change beforePath="$PROJECT_DIR$/blog/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/processBlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/blog/processBlog.sh" afterDir="false" />
-    </list>
+    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="fix older" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +119,7 @@
       <workItem from="1667452364921" duration="2208000" />
       <workItem from="1667465521962" duration="620000" />
       <workItem from="1667643971541" duration="16000" />
-      <workItem from="1667657184770" duration="801000" />
+      <workItem from="1667657184770" duration="1349000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
