@@ -14,6 +14,7 @@ POST_FILE_PATH = os.getenv('POST_FILES_PATH')
 if not RAW_FILE_PATH or not POST_FILE_PATH:
   print("Oops! plz check your local envs in 'RAW_POST_PATH' and 'POST_FILES_PATH'")
 INFO_PATH = os.path.join(POST_FILE_PATH, 'fileInfos.pkl')
+print(INFO_PATH)
 CATE_INFO_PATH = os.path.join(POST_FILE_PATH, 'cateInfos.pkl')
 TAG_INFO_PATH = os.path.join(POST_FILE_PATH, 'tagInfos.pkl')
 
