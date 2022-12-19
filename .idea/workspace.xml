@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/blog" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.processBlog.sh">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jekyll-theme-yat-1.8.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Shell Script.processBlog.sh" />
       </list>
     </recent_temporary>
