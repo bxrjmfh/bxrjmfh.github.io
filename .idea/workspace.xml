@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="fix typo">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="fix equation rendering">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-09-05-20220731-我的博客搭建记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-09-05-20220731-我的博客搭建记录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-11-25-cs231n-Lec3.-Optimization.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-11-25-cs231n-Lec3.-Optimization.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2022-11-27-cs231n-Lec.4-Network.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-11-27-cs231n-Lec.4-Network.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +124,7 @@
       <workItem from="1667659035770" duration="786000" />
       <workItem from="1667697870371" duration="104000" />
       <workItem from="1671355065228" duration="2538000" />
-      <workItem from="1671358477817" duration="2095000" />
+      <workItem from="1671358477817" duration="3312000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
@@ -305,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667659720726</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix equation rendering">
+      <created>1671361173138</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671361173139</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +341,7 @@
     <MESSAGE value="edit banner" />
     <MESSAGE value="fix older" />
     <MESSAGE value="fix typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix typo" />
+    <MESSAGE value="fix equation rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix equation rendering" />
   </component>
 </project>
