@@ -10,17 +10,18 @@ def main():
   import pickle
   import sys
 
-  # RAW_FILE_PATH = os.getenv('RAW_POST_PATH')
-  # if ':' in RAW_FILE_PATH:
-  #   RAW_FILE_PATH = RAW_FILE_PATH[0:RAW_FILE_PATH.index(':')]
-  # POST_FILE_PATH = os.getenv('POST_FILES_PATH')
-  # if ':' in POST_FILE_PATH:
-  #   POST_FILE_PATH = POST_FILE_PATH[0:POST_FILE_PATH.index(':')]
-
-  RAW_FILE_PATH = sys.argv[1]
-  POST_FILE_PATH = sys.argv[2]
+  RAW_FILE_PATH = os.getenv('RAW_POST_PATH')
+  POST_FILE_PATH = os.getenv('POST_FILES_PATH')
   if not RAW_FILE_PATH or not POST_FILE_PATH:
     print("Oops! plz check your local envs in 'RAW_POST_PATH' and 'POST_FILES_PATH'")
+    RAW_FILE_PATH = '/home/lh/文档'
+    POST_FILE_PATH = '/home/lh/bxrjmfh.github.io/_post'
+  if ':' in RAW_FILE_PATH:
+    RAW_FILE_PATH = RAW_FILE_PATH[0:RAW_FILE_PATH.index(':')]
+
+  if ':' in POST_FILE_PATH:
+    POST_FILE_PATH = POST_FILE_PATH[0:POST_FILE_PATH.index(':')]
+
   INFO_PATH = os.path.join(POST_FILE_PATH, 'fileInfos.pkl')
   CATE_INFO_PATH = os.path.join(POST_FILE_PATH, 'cateInfos.pkl')
   TAG_INFO_PATH = os.path.join(POST_FILE_PATH, 'tagInfos.pkl')
