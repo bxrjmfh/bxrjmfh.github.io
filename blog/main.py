@@ -15,7 +15,7 @@ def main():
   if not RAW_FILE_PATH or not POST_FILE_PATH:
     print("Oops! plz check your local envs in 'RAW_POST_PATH' and 'POST_FILES_PATH'")
     RAW_FILE_PATH = '/home/lh/文档'
-    POST_FILE_PATH = '/home/lh/bxrjmfh.github.io/_post'
+    POST_FILE_PATH = '/home/lh/bxrjmfh.github.io/_posts'
   if ':' in RAW_FILE_PATH:
     RAW_FILE_PATH = RAW_FILE_PATH[0:RAW_FILE_PATH.index(':')]
 
