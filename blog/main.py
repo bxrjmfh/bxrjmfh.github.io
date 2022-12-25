@@ -11,8 +11,17 @@ def main():
   import sys
 
   RAW_FILE_PATH = os.getenv('RAW_POST_PATH')
-  POST_FILE_PATH = os.getenv('POST_FILES_PATH')
-  if not RAW_FILE_PATH or not POST_FILE_PATH:
+  # RAW_FILE_PATH.strip()
+  POST_FILE_PATH = os.getenv('POST_FILE_PATH')
+  # POST_FILE_PATH.strip()
+  print('Check path')
+  print('RAW_FILE_PATH '+RAW_FILE_PATH)
+  print('POST_FILE_PATH '+POST_FILE_PATH)
+  if 'n' in input('true?'):
+    path_flag = False
+  else:
+    path_flag = True
+  if not RAW_FILE_PATH or not POST_FILE_PATH or path_flag:
     print("Oops! plz check your local envs in 'RAW_POST_PATH' and 'POST_FILES_PATH'")
     RAW_FILE_PATH = '/home/lh/文档'
     POST_FILE_PATH = '/home/lh/bxrjmfh.github.io/_posts'
