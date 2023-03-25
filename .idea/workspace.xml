@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="fix merge prob">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/processBlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/blog/processBlog.sh" afterDir="false" />
-    </list>
+    <list default="true" id="395932c7-5377-40df-8fa8-d9bbdc3edcdd" name="Changes" comment="fix merge prob" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +136,7 @@
       <workItem from="1671527049683" duration="731000" />
       <workItem from="1671972565180" duration="329000" />
       <workItem from="1679672712542" duration="734000" />
-      <workItem from="1679746918195" duration="3377000" />
+      <workItem from="1679746918195" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="test fix thing">
       <created>1662118069049</created>
